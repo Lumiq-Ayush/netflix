@@ -26,6 +26,7 @@ const LoginComponent = () => {
       setSuccessfullyLogin(true);
       }
       else{
+        alert('ID and password are not valid')
         setSuccessfullyLogin(false);
       }
     } catch (error) {
